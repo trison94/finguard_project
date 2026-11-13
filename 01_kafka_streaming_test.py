@@ -1,7 +1,11 @@
 # Databricks notebook source
-# bootstrap_servers='pkc-xrnwx.asia-south2.gcp.confluent.cloud:9092'
-# api_key='5OVF32EJBUO5UHI4'
-# api_secret='cfltbMZTBsGT29a6a7frYaxDiSAWPLD2synlHwqUkmQtbf9P2vttx7qISb+2PMzA'
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
+# bootstrap_servers='pkc-ldvr1.asia-southeast1.gcp.confluent.cloud:9092'
+# api_key='ST7CPR4CRZ62JZK6'
+# api_secret='cflts3JSvtxasb3QYm+RkHqc3v9+V4Bm61WOs0P2SF4SQNEyQaLQ8LOfsszqsDMQ'
 # topic='credit_card_transactions'
 
 # COMMAND ----------

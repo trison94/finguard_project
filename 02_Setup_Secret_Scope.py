@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # =====================================================
 # 1️⃣ Define Connection Variables (EDIT THESE)
 # =====================================================
@@ -66,10 +70,10 @@ else:
 
 # COMMAND ----------
 
-kafka_bootstrap_servers = 'pkc-xrnwx.asia-south2.gcp.confluent.cloud:9092'
+kafka_bootstrap_servers = 'pkc-ldvr1.asia-southeast1.gcp.confluent.cloud:9092'
 kafka_topic = 'credit_card_transactions'
-kafka_api_key = '5OVF32EJBUO5UHI4'
-kafka_api_secret = 'cfltbMZTBsGT29a6a7frYaxDiSAWPLD2synlHwqUkmQtbf9P2vttx7qISb+2PMzA'
+kafka_api_key = 'TMXSZ4Z4XRSY5537'
+kafka_api_secret = 'ccfltqEQC0bXoj7IN+YrLyrZOMmld//nk/MS94rkK7roqK98a0z/7xRaDt6giJoZA'
 
 kafka_connection_details = json.dumps({
     "bootstrap_servers": kafka_bootstrap_servers,
